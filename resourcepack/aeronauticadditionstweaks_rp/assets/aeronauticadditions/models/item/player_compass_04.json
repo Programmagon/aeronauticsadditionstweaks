@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "aeronauticadditions:item/player_compass_00"
+    "layer0": "aeronauticadditions:item/player_compass_04"
   }
 }
