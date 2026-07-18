@@ -3,9 +3,10 @@
 	"credit": "Made with Blockbench",
 	"render_type": "minecraft:cutout_mipped",
 	"textures": {
-		"particle": "create:block/brass_casing",
-		"1": "aeronauticadditions:block/aeronautic_chunk_loader",
-		"2": "aeronauticadditions:block/happy_ghast"
+		"1": "aeronauticadditions:block/texture",
+		"2": "aeronauticadditions:block/happy_ghast",
+		"3": "aeronauticadditions:block/water",
+		"particle": "aeronauticadditions:block/water"
 	},
 	"elements": [
 		{
@@ -57,6 +58,19 @@
 				"up": {"uv": [4, 0, 8, 4], "texture": "#2"},
 				"down": {"uv": [8, 0, 12, 4], "texture": "#2"}
 			}
+		},
+		{
+			"from": [2, 1, 2],
+			"to": [14, 5, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2, -1, 2]},
+			"faces": {
+				"north": {"uv": [4, 0, 16, 4], "texture": "#3"},
+				"east": {"uv": [4, 0, 16, 4], "texture": "#3"},
+				"south": {"uv": [0, 0, 12, 4], "texture": "#3"},
+				"west": {"uv": [0, 0, 12, 4], "texture": "#3"},
+				"up": {"uv": [0, 0, 12, 12], "texture": "#3"},
+				"down": {"uv": [0, 4, 12, 16], "texture": "#3"}
+			}
 		}
 	],
 	"display": {
@@ -104,7 +118,7 @@
 			"origin": [8, 8, 8],
 			"scope": 0,
 			"color": 0,
-			"children": [0, 1, 2, 3, 4]
+			"children": [0, 1, 2, 3, 4, 5]
 		}
 	]
 }
