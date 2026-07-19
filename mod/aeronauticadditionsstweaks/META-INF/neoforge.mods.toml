@@ -1,0 +1,31 @@
+modLoader="lowcodefml"
+loaderVersion="[0,)"
+license="MIT"
+
+[[mods]]
+modId="aeronauticadditionstweaks"
+version="1.0.0"
+displayName="Aeronautic additions tweaks"
+authors="ProfCreepy, Poisiniously"
+description="Texture and recipe tweaks to the Aeronautic Additions and ChunkLoader mod"
+
+[[dependencies.aeronauticadditionstweaks]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aeronauticadditionstweaks]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aeronauticadditionstweaks]]
+    modId="aeronauticadditions"
+    type="required"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
