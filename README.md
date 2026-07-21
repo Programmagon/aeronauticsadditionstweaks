@@ -5,9 +5,10 @@ This repository contains a resource pack, a data pack and a mod containing both 
 
 The resource pack adds new textures for the "Player Compass" and the "Directional Compass":
 
-<img src="./resourcepack/aeronauticadditionstweaks_rp/assets/aeronauticadditions/textures/item/directional_compass_00.png" width="30%" style="image-rendering: pixelated;">
-<img src="./resourcepack/aeronauticadditionstweaks_rp/assets/aeronauticadditions/textures/item/player_compass_00.png" width="30%" style="image-rendering: pixelated;">
+<img src=".README/player_compass.png" width="20%"> <img src=".README/directional_compass.png" width="20%">
 
 It also adds a new model for the "Aeronautic Chunk Loader" focusing more on the Create aesthetic:
+
+<img src=".README/aeronautic_chunk_loader.png" width="20%">
 
 Texture, model and recipe tweaks to the [Aeronautic Additions and ChunkLoader](https://modrinth.com/mod/aeronautic-additions-and-chunkloader) mod
