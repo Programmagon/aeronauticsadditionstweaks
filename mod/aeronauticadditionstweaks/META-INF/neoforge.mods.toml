@@ -8,6 +8,7 @@ version="1.0.0"
 displayName="Aeronautic Additions Tweaks"
 authors="ProfCreepy, Poisiniously"
 description="Texture and recipe tweaks to the Aeronautic Additions and ChunkLoader mod"
+logoFile="logo.png"
 
 [[dependencies.aeronauticadditionstweaks]]
     modId="neoforge"
@@ -28,4 +29,18 @@ description="Texture and recipe tweaks to the Aeronautic Additions and ChunkLoad
     type="required"
     versionRange="[0,)"
     ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.aeronauticadditionstweaks]]
+    modId="create"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.aeronauticadditionstweaks]]
+    modId="aeronautics"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
     side="BOTH"
